@@ -9,10 +9,16 @@
     <Authors>Acha,sixx</Authors>
     <Company />
     <Version>1.0.3</Version>
+	  <PackageProjectUrl>https://github.com/acha-r/UniqueIdGenerator</PackageProjectUrl>
+	  <RepositoryUrl>https://github.com/acha-r/UniqueIdGenerator</RepositoryUrl>
+	  <PackageTags>IdGenerator, Unique, UniqueId, Id, UniqueIdentifier</PackageTags>
+	  <PackageIcon>UniqueIdentifier\image\logo.jpeg</PackageIcon>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="IdentityModel" Version="7.0.0" />
-  </ItemGroup>
+
+		<None Include="..\UniqueIdentifier\image\logo.jpeg" Pack="true" Visible="false" PackagePath="UniqueIdentifier\image\logo.jpeg" Link="UniqueIdentifier\image\logo.jpeg" />
+	</ItemGroup>
 
 </Project>
