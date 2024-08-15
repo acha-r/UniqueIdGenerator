@@ -3,9 +3,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace UniqueId
+namespace UniqueIdentifier
 {
-    public static class IdGenerator
+    public static class UniqueId
     {
         private static readonly CryptoRandom _rand = new CryptoRandom();
         private static readonly string _randomChars = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz-_";
