@@ -12,13 +12,13 @@
 	  <PackageProjectUrl>https://github.com/acha-r/UniqueIdGenerator</PackageProjectUrl>
 	  <RepositoryUrl>https://github.com/acha-r/UniqueIdGenerator</RepositoryUrl>
 	  <PackageTags>IdGenerator, Unique, UniqueId, Id, UniqueIdentifier</PackageTags>
-	  <PackageIcon>UniqueIdentifier\image\logo.jpeg</PackageIcon>
+	  <PackageIcon>UniqueIdGenerator\image\logo.jpeg</PackageIcon>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="IdentityModel" Version="7.0.0" />
 
-		<None Include="..\UniqueIdentifier\image\logo.jpeg" Pack="true" Visible="false" PackagePath="UniqueIdentifier\image\logo.jpeg" Link="UniqueIdentifier\image\logo.jpeg" />
+		<None Include="..\UniqueIdGenerator\image\logo.jpeg" Pack="true" Visible="false" PackagePath="UniqueIdGenerator\image\logo.jpeg" Link="UniqueIdGenerator\image\logo.jpeg" />
 	</ItemGroup>
 
 </Project>
